@@ -24,7 +24,7 @@ const ChatbotInputSchema = z.object({
 export type ChatbotInput = z.infer<typeof ChatbotInputSchema>;
 
 const ChatbotOutputSchema = z.object({
-  response: z.string().describe('The chatbot\'s response to the user.'),
+  response: z.string().describe(\'The chatbot\\\'s response to the user.\'),
 });
 export type ChatbotOutput = z.infer<typeof ChatbotOutputSchema>;
 
@@ -32,7 +32,7 @@ const prompt = ai.definePrompt({
     name: 'chatbotPrompt',
     input: { schema: ChatbotInputSchema },
     output: { schema: ChatbotOutputSchema },
-    prompt: `You are a helpful and friendly customer support chatbot for "Microgrid Monitor". Your goal is to answer user questions about their electricity usage, billing, and account details. You can also provide general advice on how to save energy.
+    prompt: `You are a helpful and friendly customer support chatbot for \"Renewgrid Monitor\". Your goal is to answer user questions about their electricity usage, billing, and account details. You can also provide general advice on how to save energy.
 
     You will be provided with the user's details and their past transaction history in JSON format. Use this information to answer their questions accurately.
 

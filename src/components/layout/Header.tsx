@@ -23,7 +23,7 @@ export function Header() {
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
             <Zap className="h-6 w-6 text-primary" />
-            <span className="hidden font-bold sm:inline-block">Microgrid Monitor</span>
+            <span className="hidden font-bold sm:inline-block">Renewgrid Monitor</span>
           </Link>
           <nav className="flex items-center gap-6 text-sm">
             {NAV_ITEMS.map((item) => (
@@ -51,7 +51,7 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <Link href="/" className="mr-6 flex items-center space-x-2" onClick={() => setIsSheetOpen(false)}>
                 <Zap className="h-6 w-6 text-primary" />
-                <span className="font-bold">Microgrid Monitor</span>
+                <span className="font-bold">Renewgrid Monitor</span>
               </Link>
               <div className="my-4 h-px w-full bg-border" />
               <div className="flex flex-col gap-4">
@@ -74,7 +74,7 @@ export function Header() {
           <div className="flex-1" />
            <Link href="/" className="flex items-center space-x-2">
             <Zap className="h-6 w-6 text-primary" />
-            <span className="font-bold">Microgrid Monitor</span>
+            <span className="font-bold">Renewgrid Monitor</span>
           </Link>
           <div className="flex-1" />
         </div>
