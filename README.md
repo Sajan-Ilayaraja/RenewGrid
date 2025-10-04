@@ -3,6 +3,7 @@ Renewgrid is an IoT-powered smart microgrid management system designed to empowe
 
 
 🚀 Features
+
 Real-time Monitoring – Tracks solar generation, battery storage, and household usage.
 Fair Power Sharing – Distributes electricity equally, preventing misuse or unequal access.
 Predictive Alerts – Warns users before faults or low battery issues arise.
@@ -14,6 +15,7 @@ Automatic Panel Cleaning – Maintains efficiency with reduced manual effort.
 
 
 🌍 Why Renewgrid?
+
 Rural First – Tailored for villages with poor or unstable grid access.
 Affordable & Scalable – Low-cost IoT ensures easy deployment in remote areas.
 Inclusive Access – Local language alerts + display boards for non-smartphone users.
